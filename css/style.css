@@ -1,0 +1,344 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: 'Montserrat';
+   
+
+    
+}
+/*-------------banner---------------------------*/
+
+.banner{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url('../assets/pic.jpg');
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+.head{
+	color: #fff;
+	position: absolute;
+	top: 35%;
+	left: 10%;
+}
+.head h1{
+	margin-bottom: 45px;
+	text-transform: capitalize;
+}
+
+.row{
+    overflow: hidden; 
+	margin-top: 8%;
+}
+h2
+{
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: 600;
+	color: 	#1E90FF;
+	
+}
+.row p{
+	font-size: 18px;
+}
+
+/*----------------------------------footer---------------------------------*/
+
+.header-div{
+	background-color:#E6E6FA;
+}
+.header-div h3{
+	margin:45px 0 40px 0;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.1;
+	word-spacing: 4px;
+	padding: 50px!important;
+}
+.extra-div input{
+	
+	margin:0 0 40px 0;
+	padding: 10px!important;
+	width: 50%;
+}
+ h5{
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5;
+	word-spacing: 4px;
+}
+.header-extradiv{
+	
+	
+	margin: 10px 0;
+	text-align: center;
+}
+.header-extradiv p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding: 10px 0 20px 0;
+	color:black;
+	line-height: 24px;
+	width: 300px;
+	
+}
+.header-extradiv h6{
+	font-size: 20px;
+	font-weight: 600;
+	width: 250px;
+
+}
+.icons{
+	font-size:25px;
+	margin-bottom: px;
+}
+
+
+
+/*----------------------------------header---------------------------------*/
+
+
+
+.navbar:before{
+    content: "";
+    position: absolute;
+    top:0%;
+    bottom:0%;
+    left: 0%;
+    right: 0%;
+    opacity: .4;
+    z-index:-1;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+
+}
+
+/*-----------------------------------All products design block-----------------*/
+
+.all-products .row{
+    margin-bottom: 2%;
+
+}
+
+
+
+.position_1{
+    top: 40px;
+    left: 50px;
+    background-color: white;
+    opacity: 0.8;
+    border: 1px solid white;
+    padding: 0.5em;
+    border-radius: 4px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    box-shadow: 0 25px 40px rgba(0,0,.5);
+}
+.position_2{
+    top: 10px;
+    left: 30px;
+    background-color: white;
+    opacity: 0.8;
+    border: 1px solid white;
+    padding: 0.2em;
+    border-radius: 4px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    box-shadow: 0 25px 40px rgba(0,0,.4);
+}
+.img_margin:hover{
+    z-index: 1;
+    transform: scale(1.05);
+}
+.text_style{
+    font-size: 16px;
+    line-height: 30px;
+    color: #2e3192;
+    font-weight: 700;
+    font-family: "Montserrat";
+    
+}
+.text_style1{
+    font-size: 14px;
+    line-height: 30px;
+    color: #464646;
+    font-family: "Montserrat";
+}
+@media(max-width:1000px) and (min-width:769px){
+    .position_1{
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        font-size: 15px;
+    }
+    .position_2{
+        position: absolute;
+        top: 10px;
+        font-size: 15px;
+        left: 20px;
+        padding: 0;
+    }
+}
+@media(max-width:769px){
+    .img_margin{
+        top: -100px;
+        margin-top: 3em;
+        width: 100%;
+    }
+    .img_margin:hover{
+        z-index: 1;
+        transform: scale(1.02);
+    }
+    .img_width{
+        width: 94.12%;
+    }
+}
+/* trending items block */
+
+.product-display{
+    margin-top: -1%;
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*************** TO GIVE STYLES TO THE TOP HEADING ****************************/
+.heading{
+    font-size: 26px;
+    line-height: 12px;
+    color: #464646;
+    font-weight: bold;
+    font-family: "Montserrat";          
+}
+.sub-heading{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    color: #464646;        
+}
+/******************* STYLES TO THE TEXT IN THE CARD ********************/
+.card-title,.card-body{
+    color: #464646;
+    font-family: "Montserrat";
+    line-height: 20px;
+}
+/*********************** TO APPLY HOVER EFFECT TO THE CARDS ********************/
+
+.card-1,.card-2,.card-3,.card-4,.card-5,.card-6,.card-7,.card-8 {
+    position: relative;
+}
+
+.image-1,.image-2,.image-3,.image-4,.image-5,.image-6,.image-7,.image-8{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.text-1,.text-2,.text-3,.text-4,.text-5,.text-6,.text-7,.text-8{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-1:hover .image-1,.card-2:hover .image-2,.card-3:hover .image-3,.card-4:hover .image-4,.card-5:hover .image-5,.card-6:hover .image-6,.card-7:hover .image-7,.card-8:hover .image-8{
+    opacity: 0.2;
+}
+
+.card-1:hover .text-1,.card-2:hover .text-2,.card-3:hover .text-3,.card-4:hover .text-4,.card-5:hover .text-5,.card-6:hover .text-6,.card-7:hover .text-7,.card-8:hover .text-8{
+    opacity: 1;
+}
+
+/*Shopping Blog*/
+.blog{
+    padding-top: 5%;
+}
+.blog_title{
+    font-size: 26px;
+    line-height: 20px;
+    color: #464646;
+    font-weight: 500;
+    font-family: "Montserrat semibold";
+    text-align: center;
+    padding-top: 2%;
+}
+.blog_para{
+    font-size: 13px;
+    line-height: 10px;
+    color: #464646;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.bg{
+    height: 191px;
+    background-color: blue;
+}
+.bg-1{
+    height: 191px;
+    background-color: red;
+}
+.hed{
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Myriad Pro;
+}
+.para{
+    width: 234px;
+    height: 71px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 275;
+    font-family: Montserrat;
+    padding-right: 18px;
+}
+.text_style2{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 300;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+
+
+

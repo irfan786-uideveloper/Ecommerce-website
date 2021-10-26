@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login PSD1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+</head>
+<body>
+							<!-- header -->
+	<div class="header">
+		<nav class="navbar  navbar-expand-lg nav1">
+			<div class="container text-uppercase p-2">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    		<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+		  		</button>
+				<div class="collapse  navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav text-uppercase">
+					      <li class="nav-item active">
+					        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+					      </li>
+					      <li class="nav-item a1">
+					        <a class="nav-link" href="products.html">PRODUCTS</a>
+					      </li>
+					      <li class="nav-item a1">
+					        <a class="nav-link" href="#">SHOP</a>
+					      </li>
+					      <li class="nav-item a1">
+					        <a class="nav-link" href="blog.html">BLOG</a>
+					      </li>
+					      <li class="nav-item a1">
+					        <a class="nav-link" href="contact.html">CONTACT</a>
+					      </li>
+				  	</ul>
+		  		</div>
+			    
+			</div>
+		</nav>
+	</div>
+								<!-- banner -->
+	<section class="container-fluid banner">
+	    <div class="search_box">
+            <input type="text" placeholder="Type search and hit enter" name="">
+            <i class="fas fa-search" id="icon"></i>
+        </div>
+        <div class="head container">
+            <h1 class="display-5">simp<span>woo</span></h1><hr>
+            <h1 class="display-5 hh2">register user login</h1>
+        </div>	
+	</section>
+								<!-- section -->
+	<section class="container" id="sec1">
+		<p id="para_lorem_login"> Lorem Ipsum is simply dummy text of the printing and type took a galley of type and scrambled it to make a type  It has survived not only fiveLorem Ipsum is simply dummy text of the printing and type took a galley of type and scrambled it to make a type specimen book.</p>
+		<form method="get" action="successful.html" name="login_form" novalidate onsubmit="return validate()">
+			<div>
+				<input type="text" name="username" placeholder="User Name" class="input_login" minLength="6" pattern="^[a-z\d\.]{6,15}$" required>
+				<span>*</span>
+				<small id="err_user1" class="d-none text-warning"></small>
+			</div>
+			<div>
+				<input type="password" name="password" placeholder="Repeat Password" class="input_login" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+				<span>*</span>
+				<small  id="err_user2" class="d-none text-warning"></small>
+			</div>
+			<button type="submit" id="button_login">login</button>
+			<p id="para_notReg_login">not registered?</p>
+			<a href="#" id="reg_login">register here</a>
+		</form>
+	</section>
+	<section class="container-fluid division3"></section>
+									<!-- footer -->
+	<section class="container">
+		<div>
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-12">
+					<h6><b>CONTACT US</b></h6>
+					<p>Lorem iPsum is simply dummy text of the printing<br>and type setting industry. Lorem<br> Ipsum has been the industry's <br>standard dummy text ever since the 1500s.</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-12">
+					<h6><b>OPENING HOURS</b></h6>
+					<p>Mon-Fri 7am-10pm<br>sat 8am-10pm<br>sun 8am-11pm</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-12">
+					<h6><b>HELP & SUPPORT</b></h6>
+					<p>Shopping & Designs<br>Privacy policies<br>FAQ's</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-12">
+					<h6><b>LIVE SUPPORT</b></h6>
+					<p>Call: +91 1234 5678<br>myworld@shop.com</p>
+				</div>
+			</div>
+		</div>
+	</section>				
+	<hr>
+	<section class="container container-1 my-5">
+		<div class="offset-5 col-lg-4 col-md-3 col-12" id="div-icons">
+			<a href="#"><i class="fab fa-cc-visa" aria-hidden="true"></i></a>
+			<a href="#"><i class="fab fa-cc-paypal" aria-hidden="true"></i></i></a>
+			<a href="#"><i class="fab fa-cc-mastercard" aria-hidden="true"></i></a>
+			<a href="#"><i class="fab fa-cc-amex" aria-hidden="true"></i></a>
+			<a href="#"><i class="fab fa-cc-discover" aria-hidden="true"></i></a>
+		</div>
+	</section>	
+
+
+	<script src="js/main.js"></script>
+	<script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

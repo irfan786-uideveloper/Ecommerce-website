@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: "Montserrat";
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*************** TO GIVE STYLES TO THE TOP HEADING ****************************/
+
+.product-display {
+    margin-top: 100px;
+}
+
+.breadcrumb {
+    background-color: white;
+    border-bottom: 2px solid gray;
+}
+
+
+/***********************************header styles*****************************/
+
+.navbar:before{
+    content: "";
+    position: absolute;
+    top:0%;
+    bottom:0%;
+    left: 0%;
+    right: 0%;
+    opacity: .4;
+    z-index:-1;   
+}
+a{
+    font-size: 22px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+
+}
+
+
+/************************************banner styles*****************************/
+
+.main {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../assets/pic.jpg');
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin-top: 1%;
+}
+.head {
+    
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+
+.head .display-4 {
+    padding-left: 300px;
+}
+
+.head h1 {
+    margin-bottom: 35px;
+    text-transform: capitalize;
+}
+
+.search_box {
+    position: absolute;
+    left: 75%;
+    top: 20%;
+}
+
+.search_box input {
+    width: 115%;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.6;
+    outline: none;
+}
+
+#icon {
+    position: absolute;
+    left: 95%;
+    top: 40%;
+    color: black font-size: 35px;
+}
+
+
+/********************************** STYLES TO THE PRODUCTS-PART ***********************/
+
+.card-title,
+.card-body {
+    color: #464646;
+    font-family: "Montserrat";
+    line-height: 20px;
+}
+
+.product-display {
+    margin-top: 100px;
+}
+
+.breadcrumb {
+    background-color: white;
+    border-bottom: 2px solid gray;
+}
+
+
+/************************** Hover effect to the Products*******************************/
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6,
+.card-7,
+.card-8 {
+    position: relative;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4,
+.image-5,
+.image-6,
+.image-7,
+.image-8 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4,
+.text-5,
+.text-6,
+.text-7,
+.text-8 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-1:hover .image-1,
+.card-2:hover .image-2,
+.card-3:hover .image-3,
+.card-4:hover .image-4,
+.card-5:hover .image-5,
+.card-6:hover .image-6,
+.card-7:hover .image-7,
+.card-8:hover .image-8 {
+    opacity: 0.2;
+}
+
+.card-1:hover .text-1,
+.card-2:hover .text-2,
+.card-3:hover .text-3,
+.card-4:hover .text-4,
+.card-5:hover .text-5,
+.card-6:hover .text-6,
+.card-7:hover .text-7,
+.card-8:hover .text-8 {
+    opacity: 1;
+}
+
+
+/********************************footer styles ******************************************/
+
+.extra-div input {
+    margin: 0 0 40px 0;
+    padding: 10px!important;
+    width: 50%;
+}
+
+.e-heading {
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    word-spacing: 4px;
+}
+
+.header-extradiv {
+    width: 80%;
+    height: auto;
+    margin: 80px 0;
+    text-align: left;
+    color: #000000;
+    border-top: 1px solid lightgray;
+}
+
+.d-text {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px 0 20px 0;
+    color: #464646;
+}
+
+.container-1 {
+    font-weight: bold;
+}
+.icons{
+    font-size: 35px;
+    margin-bottom: 65px;
+}
+
+
+/*****************************************banner part**********************************************/
+
+/*.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.head {
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+
+.head .display-4 {
+    padding-left: 300px;
+}
+
+.head h1 {
+    margin-bottom: 35px;
+    text-transform: capitalize;
+}
+
+.search_box {
+    position: absolute;
+    left: 75%;
+    top: 15%;
+}
+
+.search_box input {
+    width: 115%;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.6;
+    outline: none;
+}
+
+#icon {
+    position: absolute;
+    left: 95%;
+    top: 40%;
+    color: black font-size: 35px;
+}
+*/
+
+/************************* media query *************************************/
+
+@media(max-width:1059px) {
+    .search_box {
+        position: absolute;
+        left: 60%;
+        top: 15%;
+    }
+}
+
+@media(max-width:852px) {
+    .head .display-4 {
+        font-size: 50px;
+        padding-left: 150px;
+    }
+}
+
+@media(max-width:680px) {
+    .search_box {
+        position: absolute;
+        left: 50%;
+        top: 15%;
+    }
+    .search_box input {
+        width: 115%;
+        padding: 10px;
+        border-radius: 10px;
+        color: black;
+        opacity: 0.6;
+        outline: none;
+    }
+}

@@ -1,0 +1,242 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	 font-family: 'Montserrat', sans-serif;
+	 box-sizing: border-box;
+
+}
+
+/*-----------------------------------------------header-----------------------------------*/
+.navbar:before{
+    content: "";
+    position: absolute;
+    top:0%;
+    bottom:0%;
+    left: 0%;
+    right: 0%;
+    opacity: .4;
+    z-index:-1;
+    
+}
+a{
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+/*-----------------------------singleproduct---------------------------*/
+
+
+.product{
+	margin: 25px;
+}
+.img1{
+	margin: 4%;
+	width: 41%;
+	height: 598px;
+	margin-top: 10%;
+}
+.cont{
+	position: relative;
+	margin-top: -650px;
+	margin-left: 50%;
+}
+.heading{
+	width: 46%;
+	height: 51px;
+	font-size: 32px;
+	line-height: 27px;
+	color: #464646;
+	font-weight: 300;
+	font-family: "Montserrat";
+}
+.para{
+	margin-top: -20px;
+	width: 76%;
+	/*height: 275px;*/
+	font-size: 14px;
+	line-height: 24px;
+	color: #464646;
+	font-weight: 250;
+	font-family: "Montserrat";
+}
+.para1{
+	margin-top: 8%;
+	width: 76%;
+	height: 275px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #464646;
+	font-weight: 250;
+	font-family: "Montserrat";
+}
+.para2{
+	margin-top: -24%;
+	width: 76%;
+	height: 275px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #464646;
+	font-weight: 250;
+	font-family: "Montserrat";
+}
+.btn{
+	margin-top: -28%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.btn-1{
+	padding: 0px 18px;
+	font-size: 14px;
+	line-height: 50px;
+	color: #fff;
+	font-weight: 500;
+	font-family: "Montserrat";
+}
+.btn1{
+	background-color: black;
+}
+.btn2{
+	margin-left: 10%;
+	background-color: #42459d;
+}
+.pics{
+	margin: 4%;
+	margin-top: 6%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.img2{
+	height: 182px;
+	
+}
+.img3{
+	margin-left:20%;
+	height: 182px;
+	width: 80%;
+}
+.img4{
+	margin-left:13%;
+	width: 40%;
+	height: 182px;
+}
+
+
+/*------------------------------Trending items---------------------------------*/
+
+
+h6{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	
+	padding-top: 4%;
+}
+h2 {
+
+ text-align: center;
+
+}
+h2:before,
+h2:after {
+	overflow: hidden;
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 40%;
+}
+h2:before {
+ right: 0.5em;
+ margin-left: -30%;
+ overflow: hidden;
+}
+h2:after {
+ left: 0.8em;
+ margin-right: -30%;
+}
+span{
+	font-size: 12px;
+	font-weight: 100;
+	color: red;
+	margin-left:120px;
+}
+p{
+	font-weight: 100;
+}
+.row{
+	margin-top: 10%;
+}
+
+
+/*---------------------------------footer------------------------------------------*/
+
+.header-div{
+	overflow: hidden;
+	background-color:#E6E6FA;
+}
+.header-div h3{
+	overflow: hidden;
+	margin:25px 0 40px 0;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.1;
+	word-spacing: 4px;
+	padding: 50px!important;
+	position: relative;
+	left: -5%;
+	top: 10%;
+}
+.extra-div input{
+	
+	margin:0 0 40px 0;
+	padding: 10px!important;
+	width: 50%;
+}
+.extra-div button{
+	margin-top: -1%;
+}
+ h5{
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5;
+	word-spacing: 4px;
+}
+.header-extradiv{
+	
+	height: auto;
+	margin: 45px 0;
+	text-align: center;
+}
+.header-extradiv p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding: 10px 0 20px 0;
+	color:black;
+	line-height: 24px;
+	width: 300px;
+	padding-top: 50%;
+}
+.header-extradiv h6{
+	overflow: hidden;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+	left: 50%;
+}
+.header-extradiv .row{
+height: 300px;
+}
+.icons{
+	font-size: 35px;
+	margin-bottom: 65px;
+}
